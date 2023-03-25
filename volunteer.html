@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  type="text/css" href="css/volunteer.css">
+
+    <style>
+        body
+        {
+        
+            background-image: url('gambar/1.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-attachment: fixed;
+        }
+      
+    </style>
+<title>Volunteer Registration</title>
+</head>
+
+<body style="background-color:#ECF2FD">
+<nav> 
+        
+        <ul>
+            <a href="index.html" class="side-img"><img src="gambar/3.png" width="98px"></a>
+
+            <li><a href="index.html">Logout</a></li>
+            <li><a href="Pets.html">Pets</a></li>
+            <li><a href="volunteer.html">Volunteer</a></li>
+            <li><a href="home.html">Home</a></li>
+            <li> </li>
+        </ul>
+    </nav>
+
+<h3>Volunteer Registration</h3>
+
+<form id="form">
+<table align ="center" cellpadding = "20">
+    
+<tr>
+<td title="Masukkan nama anda pada kolom. Maksimal 30 karakter">Nama Depan : &ensp;<input type="text" name="fname" id="fname" maxlength="30"/></td>
+<td title="Masukkan nama terakhir jika ada anda pada kolom. Maksimal 30 karakter">Nama Belakang : &ensp;<input type ="text" name="lname" id="lname" maxlength="30"/></td>
+
+<tr>
+<td title="Masukkan tanggal lahir dengan benar!">Tanggal Lahir : &ensp;<select name="B_Day" id="tanggal">
+<option value="0">Tanggal:</option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+ 
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+ 
+<option value="13">13</option>
+<option value="14">14</option>
+<option value="15">15</option>
+<option value="16">16</option>
+<option value="17">17</option>
+<option value="18">18</option>
+<option value="19">19</option>
+<option value="20">20</option>
+<option value="21">21</option>
+ 
+<option value="22">22</option>
+<option value="23">23</option>
+<option value="24">24</option>
+<option value="25">25</option>
+<option value="26">26</option>
+<option value="27">27</option>
+<option value="28">28</option>
+<option value="29">29</option>
+<option value="30">30</option>
+ 
+<option value="31">31</option>
+</select>
+ 
+<select id="bulan" name="BirthM">
+<option value="0">Bulan:</option>
+<option value="January">Jan</option>
+<option value="February">Feb</option>
+<option value="March">Mar</option>
+<option value="April">Apr</option>
+<option value="May">May</option>
+<option value="June">Jun</option>
+<option value="July">Jul</option>
+<option value="August">Aug</option>
+<option value="September">Sep</option>
+<option value="October">Oct</option>
+<option value="November">Nov</option>
+<option value="December">Dec</option>
+</select>
+ 
+<select name="Birthday_Year" id="tahun">
+<option value="-1">Tahun:</option>
+<option value="2012">2012</option>
+<option value="2011">2011</option>
+<option value="2010">2010</option>
+<option value="2009">2009</option>
+<option value="2008">2008</option>
+<option value="2007">2007</option>
+<option value="2006">2006</option>
+<option value="2005">2005</option>
+<option value="2004">2004</option>
+<option value="2003">2003</option>
+<option value="2002">2002</option>
+<option value="2001">2001</option>
+<option value="2000">2000</option>
+ 
+<option value="1999">1999</option>
+<option value="1998">1998</option>
+<option value="1997">1997</option>
+<option value="1996">1996</option>
+<option value="1995">1995</option>
+</select></td>
+
+<td title="Pilih salah satu jenis kelamin anda">Jenis Kelamin : &ensp; Male <input type="radio" name="Gender" id="L" value="Laki-Laki" checked/>
+Female <input type="radio" name="Gender" id="P" value="Perempuan" /> </td>
+
+<tr>
+<td title="Masukkan nomor ponsel anda">Nomor Handphone : &ensp; <input type="number" name="Mobile_Number" id="nomor" maxlength="10" /></td>
+<td title="Harap isi email untuk mendaftar!">Email: &ensp; <input type="email" name="Email_Id" id="email" maxlength="100" /></td>
+<tr>
+<td title="Lengkapi alamat anda dengan benar">Alamat :<br> <br> <textarea name="Alamat Lengkap" id="alamat" rows="4" cols="30"></textarea></td>
+<td title="Centang semua untuk pengalaman yang pernah anda miliki">Pengalaman dengan Binatang : &ensp; <br> <br><input type="checkbox" name="Lang" value="a" />Rumah Sakit Hewan
+<input type="checkbox" name="Lang" value="Penginapan hewan" />Penginapan Hewan<br />
+<input type="checkbox" name="Lang" value="Panti asuhan" />Panti Asuhan
+<input type="checkbox" name="Lang" value="Perawatan hewan" />Perawatan Hewan<br />
+<input type="checkbox" name="Lang" value="Lainnya">Lainnya
+<input type="text" name="Lang" id="lainnya" maxlength="100" /></td>
+
+
+<tr>
+<td title="Jawab pertanyaan dengan jujur">Bagaimana Anda mendengar <br> tentang Our Pets? <br> <br> <textarea name=" " id="tanggapan" rows="4" cols="30"></textarea></td>
+<td title="Jawab pertanyaan dengan jujur">Apakah Anda bersedia menjadi volunteer <br> di luar tempat penampungan? <br><br> Ya <input type="radio" name="y/n" id="ya" value="Ya" checked/>
+Tidak <input type="radio" name="y/n" id="tidak" value="Tidak" /></td>
+
+
+<tr>
+<td title="Jawab pertanyaan dengan jujur">Mengapa Anda ingin menjadi <br>volunteer di Our Pets? <br> <br><textarea name="Alasan" id="alasan" rows="4" cols="30"></textarea></td>
+<td title="Opsional">Hal lain yang ingin Anda tanyakan, <br> harap dicatat di sini: 
+<br> <br> <textarea name="Alasan" id="tanya" rows="4" cols="30"></textarea></td>
+
+
+<tr>
+    <td>&ensp;</td>
+<td  align ="center" ><input type="Reset" name="Reset" value="Reset" onclick="alert('Data telah di-reset!') "/>&ensp;
+<input type="submit" name="submit" value="Simpan" onclick="alert('Terimakasih, Data telah dikirimkan!')">
+&ensp;<input type="submit" name="tampil" id="tampil" value="Tampil Data">
+</td>
+</tr>
+</table>
+</form>
+
+<form id="form2">
+    <table align="center" cellpadding = "5" class="tampil">
+        <div>
+    <td>
+    <h4>Nama Depan  &emsp;&ensp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;: </h4>
+    </td><td><p id="getfname"></p></td>
+    
+    <td>
+    <tr><td>
+    <h4>Nama Belakang  &ensp;&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; : </h4>
+    </td><td><p id="getlname"></p></td>
+
+    <td>
+    <tr><td>
+    <h4>Tanggal Lahir  &emsp;&ensp;&ensp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;: </h4>
+    <td><p id="gettanggal"></p>
+
+    <td>
+    <tr><td>
+    <h4>Bulan Lahir &emsp;&emsp;&ensp;&ensp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;: </h4>
+    </td><td><p id="getbulan"></p></td>
+
+    <td>
+    <tr><td>
+    <h4>Tahun Lahir &emsp;&emsp;&ensp;&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;: </h4>
+    </td><td><p id="gettahun"></p></td>
+    
+    <td>
+    <tr><td>
+    <h4>Jenis Kelamin&nbsp;&ensp;&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;: </h4>
+    </td><td><p id="getkelamin"></p></td>
+
+    <td>
+    <tr><td>
+    <h4>Nomor Handphone &nbsp;&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;: </h4>
+    </td><td><p id="getnomor"></p></td>
+
+    <td>
+    <tr><td>
+    <h4>Email&emsp;&ensp;&emsp;&emsp;&emsp;&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;: </h4>
+    </td><td><p id="getemail"></p></td>
+
+    <td>
+    <tr><td>
+    <h4>Alamat &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;: </h4>
+    </td><td><p id="getalamat"></p></td>
+
+    <td>
+    <tr><td>
+    <h4>Pengalaman &emsp;&emsp;&nbsp;&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;: </h4>
+    </td><td><p id="getlang"></p></td>
+
+    
+    <td>
+    <tr><td>
+    <h4>Pengalaman Lainnya  &emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&emsp;&emsp;: </h4>
+    </td><td><p id="getlainnya"></p></td>
+
+    <td>
+    <tr><td>
+    <h4>Informasi Our Pets &emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&emsp;&emsp;: </h4>
+    </td><td><p id="gettanggapan"></p></td>
+
+    <td>
+    <tr><td>
+    <h4>Ditempatkan di Luar penampungan : </h4>
+    </td><td><p id="getpilihan"></p></td>
+
+    <td>
+    <tr><td>
+    <h4>Alasan Ikut Bergabung  &emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&emsp;: </h4>
+    </td><td><p id="getalasan"></p></td>
+
+    <td>
+    <tr><td>
+    <h4>Pertanyaan Lainnya  &emsp;&emsp;&nbsp;&emsp;&emsp;&nbsp;&nbsp;&emsp;&emsp;: </h4>
+    </td><td><p id="gettanya"></p></td>
+</div>
+</table>
+</form>
+
+<footer> 
+        <hr>
+        <div class="foot">
+           <br> <p>© 2023 Copyright Our Pets</p>
+        </div></footer>
+</body>
+<script src = "js/volunteer.js"></script>
+</html>

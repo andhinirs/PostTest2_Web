@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400;700&display=swap");
+
+*{margin: 0;
+    padding: 0; 
+}
+/* bagian navbar nya */
+
+nav ul {
+    list-style-type: none;
+    overflow: hidden;
+    height: 80px;
+    padding: 0 2px 0 0;
+    background-color: #3D679B;
+    }
+    
+    /* navbar posisi textnya */
+    nav li {
+    float: right;
+    margin: auto;
+    padding: 23px 28px 20px 5px;
+    }
+    
+    /* bagian logo ourpets */
+    nav ul a{
+    float: inherit;
+    margin-left: 10px;
+    }
+
+    /* link navbar */
+    nav li a {
+    font-family: verdana;
+    font-size: 14px;
+    color:#ffffff;
+    text-align: left;
+    padding: 5px 5px 5px 5px;
+    text-decoration: underline;
+    
+    }
+    
+    /* buat bayang-bayang pas dipencet */
+    nav li a:hover {
+    opacity:1;
+    background-color: #d4dbe5;
+    transition-duration: 0,2;
+    }
+
+
+    html,
+    body {
+    font-size: 16px;
+    font-family: "Comic Neue", cursive;
+    letter-spacing: 0.05em;
+    }
+    
+body {
+    background-color: #DEDEDE;
+    color: black;
+    /* padding: 20px 0 28px 0; */
+    margin: 0;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .app-title {
+    margin-top: 15px;
+    text-align: center;
+    font-weight: normal;
+    font-size: 2.6rem;
+  }
+  
+  .animal {
+    max-width: 650px;
+    padding: 20px;
+    margin: 30px auto;
+    background-color: #FFF;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, .1);
+    overflow: hidden;
+  }
+  
+  .animal h4 {
+    margin: 0 0 6px 0;
+  }
+  
+  .pet-photo {
+    float: left;
+    width: 40%;
+    margin-right: 15px;
+  }
+  
+  .pet-name {
+    font-size: 2rem;
+    font-weight: normal;
+    margin: 0 0 1rem 0;
+  }
+  
+  .species {
+    font-size: .9rem;
+    color: #888;
+    vertical-align: middle;
+  }
+  
+  .foods-list {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: 17px;
+    font-size: .85rem;
+    line-height: 1.5;
+  }
+  
+  footer {
+    font-size: small;
+    width: 100%;
+    /* position: relative; */
+    margin: auto;
+    /* padding: 10px 0; */
+    text-align: center;
+    margin-bottom: 10px;
+}
+footer{
+    bottom: 0;
+}
+  

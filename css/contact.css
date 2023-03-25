@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400;700&display=swap");
+
+
+*{margin: 0;
+}
+/* bagian navbar nya */
+
+nav ul {
+    list-style-type: none;
+    overflow: hidden;
+    height: 80px;
+    padding: 0 2px 0 0;
+    background-color: #3D679B;
+    
+    }
+    
+    /* navbar posisi textnya */
+    nav li {
+    float: right;
+    margin: auto;
+    padding: 23px 28px 20px 5px;
+    }
+    
+    /* bagian logo ourpets */
+    nav ul a{
+    float: inherit;
+    margin-left: 10px;
+    }
+
+    /* link navbar */
+    nav li a {
+    font-family: verdana;
+    font-size: 14px;
+    color:#ffffff;
+    text-align: left;
+    padding: 5px 5px 5px 5px;
+    text-decoration: underline;
+    
+    }
+    
+    /* buat bayang-bayang pas dipencet */
+    nav li a:hover {
+    opacity:1;
+    background-color: #d4dbe5;
+    transition-duration: 0,2;
+    }
+
+    .container2{
+        margin-top: 20px;
+        padding: 20px 50px 20px 50px;
+        background-color: #ffffff;
+        /* position: absolute; */
+        text-align: center;
+    }
+    html,
+    body {
+    font-size: 16px;
+    font-family: "Comic Neue", cursive;
+    letter-spacing: 0.05em;
+    }
+    
+    .card-container {
+        display: flex;
+    }
+    
+    .left {
+        flex: 1;
+        height: 460px;
+        background-color: #3D679B;
+    }
+    
+    .right {
+        display: flex;
+        flex: 1;
+        height: 460px;
+        background-color: #ffffff;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .left {
+        display: flex;
+        flex: 1;
+        height: 522px;
+        justify-content: center;
+        align-items: center;
+        color: #ffffff;
+    }
+    
+    
+    .left-container {
+        height: 50%;
+        width: 80%;
+        text-align: center;
+        line-height: 22px;
+        font-size: 16px;
+        font-family: "Comic Neue", cursive;
+        letter-spacing: 0.05em;
+    }
+    
+    h2 {
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    
+    .right-container {
+        width: 70%;
+        height: 80%;
+        text-align: center;
+        font-size: 16px;
+        font-family: "Comic Neue", cursive;
+        letter-spacing: 0.05em;
+    }
+    
+    input,
+    textarea {
+        background-color: #eee;
+        border: none;
+        padding: 12px 15px;
+        margin: 8px 0;
+        width: 100%;
+        font-size: 0.8rem;
+    }
+    
+    input:focus,
+    textarea:focus {
+        outline: 1px solid #3D679B;
+    }
+    
+    button {
+        border-radius: 20px;
+        border: 1px solid #becee1;
+        background-color: #3D679B;
+        color: #ffffff;
+        font-size: 12px;
+        font-weight: bold;
+        padding: 12px 45px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        cursor: pointer;
+        margin-left: 23px;
+    }
+    
+    button:hover {
+        opacity: 0.7;
+    }
+    
+    textarea {
+        height: 90px;
+    }
+    
+   footer {
+    font-size: small;
+    width: 100%;
+    /* position: relative; */
+    margin: auto;
+    /* padding: 10px 0; */
+    text-align: center;
+    margin-bottom: 10px;
+}
+footer{
+    bottom: 0;
+}
+  

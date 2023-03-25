@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Masai | Signup</title>
+    <link rel="stylesheet" href="css/login.css" />
+
+    <style>
+      body
+      {
+          background-image: url("https://media.newyorker.com/photos/606b51c2313f23423168acbe/master/w_2560%2Cc_limit/Brewer-CompanionDogApplication.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+
+      }
+    
+  </style>
+
+  </head>
+  <body>
+    <div>
+        <img src="gambar/3.png" alt="OurPets Logo" width="95px" />
+    </div>
+    <div id="parent">
+      <h1>Daftar</h1>
+
+      <form>
+        <label>Nama</label>
+        <input type="text" placeholder="Masukkan Nama" id="usernama"/>
+
+        <label>Email</label>
+        <input type="email" placeholder="Masukkan Email" id="userEmail" />
+
+        <label>Nomor Handphone</label>
+        <input
+          type="phone"
+          placeholder="Masukkan Nomor"
+          id="userMobile"
+        />
+
+        <label> Password</label>
+        <div id="show">
+          <img
+            src="gambar/eye-slash-solid.svg"
+            alt="eye"
+            id="eye"
+            onclick="myFunction()"
+          />
+        </div>
+        <input type="password" placeholder="Masukkan Password" id="userPassword" />
+        <input style="border: none" type="submit" value="DAFTAR" />
+        <p>
+          Sudah memiliki akun?
+          <a href="login.html" style="text-decoration: none">LOGIN</a>
+        </p>
+      </form>
+    </div>
+  </body>
+</html>
+<script src="js/daftar.js"></script>

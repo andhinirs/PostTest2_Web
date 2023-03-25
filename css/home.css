@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400;700&display=swap");
+
+*{margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+/* bagian navbar nya */
+
+nav ul {
+    list-style-type: none;
+    overflow: hidden;
+    height: 80px;
+    padding: 0 2px 0 0;
+    background-color: #3D679B;
+    
+    }
+    
+    /* navbar posisi textnya */
+    nav li {
+    float: right;
+    margin: auto;
+    padding: 23px 28px 20px 5px;
+    }
+    
+    /* bagian logo ourpets */
+    nav ul a{
+    float: inherit;
+    margin-left: 10px;
+    }
+
+    /* link navbar */
+    nav li a {
+    font-family: verdana;
+    font-size: 14px;
+    color:#ffffff;
+    text-align: left;
+    padding: 5px 5px 5px 5px;
+    text-decoration: underline;
+    
+    }
+    
+    /* buat bayang-bayang pas dipencet */
+    nav li a:hover {
+    opacity:1;
+    background-color: #d4dbe5;
+    transition-duration: 0,2;
+    }
+
+    html,
+    body {
+    font-size: 16px;
+    font-family: "Comic Neue", cursive;
+    letter-spacing: 0.05em;
+    }
+
+section {
+  padding: 30px;
+  margin-bottom: 100px;
+}
+    h1 {
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 0.2em;
+    }
+    h2 {
+    font-size: 30px;
+    }
+    h2,
+    h3,
+    p {
+    margin-bottom: 0.5em;
+    }
+    img {
+    position: relative;
+    top: 0;
+    object-fit: cover;
+    }
+    form {
+    margin-top: 20px;
+    }
+    input,
+    button {
+    font-size: inherit;
+    font-family: inherit;
+    padding: 10px;
+    outline: none;
+    border-radius: 4px;
+    }
+    .main-button {
+    width: 200px;
+    background: #dfedff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    }
+
+    .main-button:hover{
+      background-color: #3D679B;
+    }
+
+    input {
+    width: 300px;
+    border: 1px solid;
+    transition: all 0.3s ease;
+    }
+    input:focus {
+    border-color: #3D679B;
+    }
+
+#banner {
+  position: relative;
+  height: 100vh;
+}
+#layer-bg {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+/* konten */
+#banner-content {
+  position: absolute;
+  top: 40px;
+  width: 100%;
+  height: 100%;
+  color: #ECF2FD;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 30px;
+  text-align: center;
+}
+#banner-content > button {
+  margin-top: 20px;
+}
+#container {
+  max-width: 800px;
+  margin: 100px auto;
+}
+#about {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+#video {
+  width: 100%;
+  margin-right: 30px;
+}
+#about-right {
+  width: 100%;
+}
+
+#volunteer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+#submit {
+  width: 100px;
+}
+#submit:hover {
+  background: black;
+  color: white;
+  border-color: #000;
+}
+
+footer {
+    font-size: small;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 10px;
+}
+footer{
+    bottom: 0;
+}
