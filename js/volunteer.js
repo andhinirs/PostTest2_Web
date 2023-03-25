@@ -98,5 +98,5 @@ document.getElementById("tampil").addEventListener("click", function(e){
   document.getElementById("gettanggapan").innerHTML = x.tanggapan
   document.getElementById("getpilihan").innerHTML = x.pilihan
   document.getElementById("getalasan").innerHTML = x.alasan
-  document.getElementById("tanya").innerHTML = x.tanya
+  document.getElementById("gettanya").innerHTML = x.tanya
 });
